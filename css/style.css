@@ -1,0 +1,103 @@
+.colorShape {
+	color: #E62026;
+	font-size: 20px;
+	font-weight: bolder;
+}
+/*Configuración del primer contenedor*/
+.fondo1 {
+	background: url("../image/1.jpg")no-repeat fixed;
+	-webkit-background-size: contain;
+	-o-background-size: contain;
+	-moz-background-size:  contain
+	background-size: contain;
+	height: 600px;/*alto del contenedor*/
+}
+/*Color de textos en el menu*/
+.colorMenu{
+	color: #FFF;
+}
+
+.colorMenuP:hover {
+	background-color: #EC4141;
+	cursor: pointer;
+}
+
+.espaciado{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.fondoMenu{
+	background-color: rgba(0, 0, 0, 0.5); /*transparencia*/
+}
+
+.altoMenu{
+	height: 50px;
+}
+
+.centradoVH {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.centradoVertical {
+	display: flex;
+	align-items: center;
+}
+
+.progressText{
+	font-size: 46px;
+	font-weight: bolder;
+}
+
+.colorTextoBlanco{
+	color: #FFF;
+}
+
+.altoFila2{
+	height: 450px;
+}
+
+.altoTotal{
+	height: 100% !important;
+}
+
+.textoAbajo{
+	position: absolute;
+	bottom: 20px;
+}
+
+.centrado{
+	text-align: center;
+}
+
+.titulo2{
+	font-size: 23px;
+	font-weight: bolder;
+}
+
+.fondo2{
+	background-color: #EC4141;
+	padding-bottom: 4%;
+}
+
+.espaciadoVertical{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.tituloCards{
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.espaciadoTituloCard{
+	padding: 7px;
+	border: 1px solid #F2F2F2;
+}
+
+.fondoCards{
+	background-color: #FFF;
+	padding: 4%;
+}
